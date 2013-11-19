@@ -7,7 +7,7 @@ resources("template[/etc/gitweb.conf]").cookbook this_cookbook
 
 file "/usr/share/gitweb/robots.txt" do
   content <<-EOQ
-User-agent: msnbot
+User-agent: *
 Crawl-delay: 5
 EOQ
 end
