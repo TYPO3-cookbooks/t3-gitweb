@@ -1,68 +1,27 @@
-t3-gitweb Cookbook
-==================
-TODO: Enter the cookbook description here.
+# Description
 
-e.g.
-This cookbook makes your favorite breakfast sandwhich.
+A wrapper cookbook for gitweb
 
-Requirements
-------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+# Requirements
 
-e.g.
-#### packages
-- `toaster` - t3-gitweb needs toaster to brown your bagel.
+## Platform:
 
-Attributes
-----------
-TODO: List you cookbook attributes here.
+*No platforms defined*
 
-e.g.
-#### t3-gitweb::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['t3-gitweb']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+## Cookbooks:
 
-Usage
------
-#### t3-gitweb::default
-TODO: Write usage instructions for each cookbook.
+* gitweb (= 0.1.2)
 
-e.g.
-Just include `t3-gitweb` in your node's `run_list`:
+# Attributes
 
-```json
-{
-  "name":"my_node",
-  "run_list": [
-    "recipe[t3-gitweb]"
-  ]
-}
-```
+*No attributes defined*
 
-Contributing
-------------
-TODO: (optional) If this is a public cookbook, detail the process for contributing. If this is a private cookbook, remove this section.
+# Recipes
 
-e.g.
-1. Fork the repository on Github
-2. Create a named feature branch (like `add_component_x`)
-3. Write you change
-4. Write tests for your change (if applicable)
-5. Run the tests, ensuring they all pass
-6. Submit a Pull Request using Github
+* t3-gitweb::default
 
-License and Authors
--------------------
-Authors: TODO: List authors
+# License and Maintainer
+
+Maintainer:: TYPO3 Association (<steffen.gebert@typo3.org>)
+
+License:: Apache 2.0
