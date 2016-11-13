@@ -5,6 +5,6 @@ license          "Apache 2.0"
 description      "A wrapper cookbook for gitweb"
 long_description IO.read(File.join(File.dirname(__FILE__), "README.md"))
 
-version          "0.2.0"
+version          "0.2.1"
 
 depends          "gitweb", "~> 0.2.0"
