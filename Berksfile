@@ -6,5 +6,5 @@ metadata
 solver :ruby, :required
 
 group :integration do
-  cookbook "apt"
+  cookbook "apt", "< 6.0.0" # requires Chef 12.9+
 end
