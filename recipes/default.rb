@@ -1,3 +1,5 @@
+package "highlight"
+
 include_recipe "gitweb::default"
 
 resources("template[/etc/gitweb.conf]").cookbook cookbook_name
